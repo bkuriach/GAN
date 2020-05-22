@@ -236,9 +236,6 @@ for epoch in range(epochs):
 
         images = images.to(device)
 
-        # YOUR CODE HERE
-        #         raise NotImplementedError()
-
         ## D-STEP:
         ## First, clear the gradients of the Discriminator optimizer.
 
