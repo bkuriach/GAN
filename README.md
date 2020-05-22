@@ -1,5 +1,5 @@
-# GAN
-Generative Adverserial Network
+# GAN (PyTorch)
+Generative Adverserial Network (PyTorch)
 
 Generative Adversarial Networks a.k.a GANs are emerging techniques that model high dimensional distribution of data. They achieve this by training a pair of networks, Generator and Discriminator, with competing loss terms. As an analogy we can think of these models as an art forger and the other being an art expert. In GAN literature we term Generator as the forger and the duty of the Generator is to produce fake images(forgeries) to deceive the art expert(Discriminator). The Discriminator which receives both the real images and fake images tries to distinguish between them and find the fake images. Both are trained simulataneously and are always in competition with each other. This competition between the Generator and Discriminator drives them to improve their models continuously. The models are trained until the Generator produces the fake images that are indistinguishable from the real images.
 
