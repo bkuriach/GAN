@@ -1,7 +1,10 @@
+# Download Dog Images from http://vision.stanford.edu/aditya86/ImageNetDogs/ and set the paths accordingly
+
+# Deep Convolution GAN
+
 from __future__ import print_function
 import matplotlib
 matplotlib.use('TkAgg')
-import argparse
 import os
 import random
 import torch
